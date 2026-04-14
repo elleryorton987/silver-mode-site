@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silver Mode | Driving Independence for the Silver Generation</title>
+    <meta
+      name="description"
+      content="Silver Mode is a concept interface designed to make assisted driving calmer, clearer, and more confidence-building for older adults."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="ambient ambient-left" aria-hidden="true"></div>
+    <div class="ambient ambient-right" aria-hidden="true"></div>
+
+    <header class="hero shell section reveal">
+      <p class="eyebrow">Silver Mode Concept</p>
+      <div class="hero-grid">
+        <div>
+          <h1>Driving independence for the silver generation.</h1>
+          <p class="lead">
+            Silver Mode reimagines assisted driving for older adults who still love to drive,
+            but feel overwhelmed by touchscreen-heavy vehicle interfaces.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-solid" href="#interactive">See the Interactive Mockup</a>
+            <a class="btn btn-outline" href="#problem">Why this matters</a>
+          </div>
+        </div>
+
+        <aside class="hero-screen" aria-label="Silver Mode hero dashboard mockup">
+          <div class="screen-head">
+            <span>Silver Mode Active</span>
+            <span>Confidence View</span>
+          </div>
+          <div class="screen-main">
+            <p class="label">Destination</p>
+            <h2>St. George</h2>
+            <p class="sub">2h 59m · Gentle guidance enabled</p>
+          </div>
+          <div class="quick-grid">
+            <button>Drive</button>
+            <button>Reverse</button>
+            <button>Park</button>
+            <button>Call Family</button>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="problem" class="section shell reveal">
+        <p class="eyebrow">The Problem</p>
+        <h2>Modern vehicle software can feel intimidating when confidence matters most.</h2>
+        <div class="cards cols-3">
+          <article class="card">
+            <h3>Too many choices at once</h3>
+            <p>
+              Deep menus and crowded screens can turn simple tasks into stressful moments.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Assistance is powerful, UI is not</h3>
+            <p>
+              Assisted driving can reduce fatigue, but the interface still expects fast, precise
+              interaction.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Stress scales on long drives</h3>
+            <p>
+              Routes with unfamiliar roads, weather shifts, and charging stops increase cognitive
+              load.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell reveal story">
+        <p class="eyebrow">A Personal Reason</p>
+        <blockquote>
+          “My grandpa can still drive, but long drives like Provo to St. George can feel
+          stressful. Assisted driving could be life changing for people like him, but only if the
+          technology itself feels simple, calm, and approachable.”
+        </blockquote>
+        <p>
+          Silver Mode began as a simple question: what if assisted driving felt less like software,
+          and more like a trusted co-pilot?
+        </p>
+      </section>
+
+      <section class="section shell reveal">
+        <p class="eyebrow">The Solution</p>
+        <h2>A simplified interface centered on the essentials.</h2>
+        <div class="cards cols-2">
+          <article class="card">
+            <h3>Essential actions only</h3>
+            <ul class="essentials">
+              <li>Drive</li>
+              <li>Reverse</li>
+              <li>Park</li>
+              <li>Music</li>
+              <li>Destination</li>
+              <li>Battery</li>
+              <li>Call family / help</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Designed for confidence</h3>
+            <p>
+              Larger touch targets, stronger contrast, voice-first prompts, and calmer visual
+              hierarchy reduce pressure behind the wheel.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="interactive" class="section interactive shell">
+        <div class="reveal">
+          <p class="eyebrow">Signature Experience</p>
+          <h2>Scroll through the Silver Mode cockpit reveal.</h2>
+          <p class="section-copy">
+            As you scroll, the interface opens one decision at a time—showing exactly how Silver
+            Mode removes clutter without removing control.
+          </p>
+        </div>
+
+        <div class="mockup-flow">
+          <div class="mockup-screen-wrap">
+            <div class="mockup-screen" id="mockupScreen" aria-live="polite">
+              <div class="mockup-top">
+                <p id="screenTitle">Ready to drive</p>
+                <p id="screenStatus">Calm mode on</p>
+              </div>
+
+              <div class="mockup-core" id="coreButtons">
+                <button class="core-button">Drive</button>
+                <button class="core-button">Reverse</button>
+                <button class="core-button">Park</button>
+              </div>
+
+              <div class="feature-buttons">
+                <button class="feature-chip" data-feature="destination">Destination</button>
+                <button class="feature-chip" data-feature="music">Music</button>
+                <button class="feature-chip" data-feature="help">Call Family / Help</button>
+              </div>
+
+              <p id="screenNarration" class="screen-narration">
+                Large controls stay visible. Secondary actions appear gently when needed.
+              </p>
+            </div>
+          </div>
+
+          <div class="mockup-steps" aria-label="Scroll steps describing interface changes">
+            <article class="mock-step reveal" data-step="destination" tabindex="0">
+              <p class="step-number">01</p>
+              <h3>Reveal Destination first</h3>
+              <p>
+                The first scroll step introduces navigation with one prominent destination action.
+              </p>
+            </article>
+            <article class="mock-step reveal" data-step="music" tabindex="0">
+              <p class="step-number">02</p>
+              <h3>Then prioritize Music</h3>
+              <p>
+                Comfort controls appear next, supporting calmer drives without stealing focus.
+              </p>
+            </article>
+            <article class="mock-step reveal" data-step="drive" tabindex="0">
+              <p class="step-number">03</p>
+              <h3>Highlight Drive / Reverse / Park</h3>
+              <p>
+                Core movement controls remain the visual anchor with larger targets and clear
+                labeling.
+              </p>
+            </article>
+            <article class="mock-step reveal" data-step="help" tabindex="0">
+              <p class="step-number">04</p>
+              <h3>Finally surface family support</h3>
+              <p>
+                Help is always close: one tap for family contact or quick assistance.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell reveal">
+        <p class="eyebrow">Benefits</p>
+        <h2>Confidence for drivers. Reassurance for families.</h2>
+        <div class="cards cols-4">
+          <article class="card"><h3>Independence</h3><p>More years of confident mobility.</p></article>
+          <article class="card"><h3>Peace of mind</h3><p>Families know support is one tap away.</p></article>
+          <article class="card"><h3>Accessible tech</h3><p>Readable, touch-friendly, voice-forward design.</p></article>
+          <article class="card"><h3>Less stress</h3><p>Simpler decisions on long and unfamiliar routes.</p></article>
+        </div>
+      </section>
+
+      <section class="section shell cta reveal">
+        <p class="eyebrow">Support the Concept</p>
+        <h2>Help bring Silver Mode to life.</h2>
+        <p>
+          Join the waitlist for concept updates, pilot opportunities, and product design previews.
+        </p>
+        <form class="waitlist" aria-label="Email signup form">
+          <label for="email" class="sr-only">Email address</label>
+          <input id="email" type="email" placeholder="Enter your email" required />
+          <button type="submit">Get updates</button>
+        </form>
+        <p class="form-note">Demo form only — no backend connected yet.</p>
+      </section>
+    </main>
+
+    <footer class="footer shell">
+      <p>Silver Mode — a concept brand for dignified, confidence-first assisted driving.</p>
+      <p class="muted">Not affiliated with Tesla or any automaker.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
